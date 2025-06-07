@@ -1,0 +1,23 @@
+{
+  "name": "test_ookx",
+  "version": 2,
+  "regions": ["hkg1"],
+  "builds": [
+    {
+      "src": "main.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/main.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "github": {
+    "silent": true
+  }
+}

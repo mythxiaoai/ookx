@@ -1,0 +1,20 @@
+{
+  "name": "test_ookx",
+  "version": "1.0.0",
+  "description": "OKX proxy server",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
