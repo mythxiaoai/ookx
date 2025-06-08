@@ -3,7 +3,6 @@ const https = require('https');
 const fs = require('fs').promises;
 const path = require('path');
 const url = require('url');
-const WebSocket = require('ws');
 
 // 预先加载静态文件内容到内存中，解决Vercel环境下的文件访问问题
 let staticFileCache = {};
